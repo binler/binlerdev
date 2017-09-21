@@ -7,7 +7,7 @@ class HomeController {
 
   // index
   async index(ctx) {
-    await ctx.render( 'home/index', {title: 'Koajs', content: 'Hello world'} );
+    await ctx.render( 'home/index', {title: 'binlerdev', content: 'Hello world'} );
   }
 
 }
